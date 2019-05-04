@@ -1,16 +1,18 @@
-from cut_word import cut_word
+import config
 from PIL import Image
-from pretreat import pretreat
-import read_chinese
-from generator import generator_iter
+import cut_word
+import pretreat
+import os
 
-# Definition of some constant
-FONT_Sun = "SimSun.ttf"
+font_list = [config.FONT_NAME_Micro, config.FONT_NAME_HuaWen, config.FONT_NAME_Sun, config.FONT_NAME_Fangzheng]
+for font in font_list:
+    cut_word.cut_word_with_size_and_border.count = 0
+    path = "data/{}/".format(font)
+    files = os.listdir(path)
+    for f in files:
+        print(f)
+        img = Image.open(path + f)
 
-chars = read_chinese.read_chinese3000()
-generator_iter(chars)
-'''
-img = Image.open("data/test_pic.jpg").convert("RGB")
-img = pretreat(img)
-chars = cut_word(img, FONT_Sun)
-'''
+        img = pretreat.crop_image(img)
+        # img.show()
+        chars_list = cut_word.cut_word_with_size_and_border(img, font)

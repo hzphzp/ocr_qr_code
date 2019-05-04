@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dc02f84-d845-4e38-82c3-72cfad181c64" name="Default Changelist" comment="" />
+    <list default="true" id="6dc02f84-d845-4e38-82c3-72cfad181c64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ocr_qr_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/GenerateDocument.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/GenerateImage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DocSteg/GenerateImage.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/data/frequent_chars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/data/hanziDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/fonts/FangZhengKaiTi.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/DocSteg/fonts/FangZhengKaiTi.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocSteg/fonts/SimSun.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/DocSteg/fonts/SimSun.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/cut_word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fonts/SimSun.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/data/fonts/SimSun.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/frequent_chars/chinese_u8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/frequent_chars/chinese_u8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/frequent_chars/frequent_chars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/frequent_chars/frequent_chars.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/huang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/songti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_class/Character.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_class/__init__/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pretreat.py" beforeDir="false" afterPath="$PROJECT_DIR$/pretreat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_chinese.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_chinese.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/'.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/^.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/′.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/、.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/。.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/《.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/万.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/上.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/不.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/中.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/也.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/争.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/人.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/今.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/冠.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/剑.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/勺.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/卫.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/又.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/圭.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/士.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/夜.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/妻.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/始.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/子.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/守.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/宋.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/宝.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/寸.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/寻.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/尺.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/开.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/愤.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/成.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/我.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/戴.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/才.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/斯.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/方.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/日.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/是.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/望.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/木.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/本.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/死.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/生.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/申.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/的.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/皆.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/禾.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/耳.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/至.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/荣.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/邗.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/长.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/音.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/cut_word/黑.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +98,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/ImageFile.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="471" selection-start-line="471" selection-end-line="471" />
+            <state relative-caret-position="164">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pretreat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Character.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -22,15 +158,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/Image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64125">
-              <caret line="2379" selection-start-line="2379" selection-end-line="2379" />
+            <state relative-caret-position="126">
+              <caret line="1988" selection-start-line="1988" selection-end-line="1988" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/songti.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/cut_word.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -59,6 +202,13 @@
         <option value="$PROJECT_DIR$/src/my_class/ChineseCharacter.py" />
         <option value="$PROJECT_DIR$/src/my_class/Character.py" />
         <option value="$PROJECT_DIR$/src/cut_word/cut_word.py" />
+        <option value="$PROJECT_DIR$/my_class/Character.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/Character.py" />
+        <option value="$PROJECT_DIR$/cut_word.py" />
+        <option value="$PROJECT_DIR$/pretreat.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -74,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,16 +232,10 @@
               <item name="ocr_qr_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="ocr_qr_code" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ocr_qr_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ocr_qr_code" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,6 +246,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/cut_word" />
       <recent name="$PROJECT_DIR$/src/my_class" />
       <recent name="$PROJECT_DIR$/src" />
@@ -119,7 +265,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cut_word">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="cut_word (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ocr_qr_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cut_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cut_word" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ocr_qr_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +310,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ocr_qr_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,12 +318,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tmp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tmp/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ocr_qr_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pretreat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ocr_qr_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pretreat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,13 +377,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.cut_word" />
+      <item itemvalue="Python.cut_word (1)" />
+      <item itemvalue="Python.pretreat" />
+      <item itemvalue="Python.generator" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.pretreat" />
+        <item itemvalue="Python.cut_word (1)" />
+        <item itemvalue="Python.generator" />
         <item itemvalue="Python.cut_word" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -188,125 +406,190 @@
       <workItem from="1555316390405" duration="1134000" />
       <workItem from="1555319022637" duration="7659000" />
       <workItem from="1555483362081" duration="1507000" />
+      <workItem from="1555750954174" duration="1510000" />
+      <workItem from="1555757771327" duration="4047000" />
+      <workItem from="1555843222230" duration="2722000" />
+      <workItem from="1555846848807" duration="7911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10300000" />
+    <option name="totallyTimeSpent" value="26490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1023" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18722707" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20469432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945414" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945414" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50054586" side_tool="true" visible="true" weight="0.41125" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054586" side_tool="true" weight="0.4225" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32969433" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18286026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945414" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054586" side_tool="true" weight="0.4225" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32969433" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tmp.image.show()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ocr_qr_code$cut_word.coverage" NAME="cut_word Coverage Results" MODIFIED="1555333873474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cut_word" />
     <SUITE FILE_PATH="coverage/ocr_qr_code$test.coverage" NAME="test Coverage Results" MODIFIED="1555321415620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
+    <SUITE FILE_PATH="coverage/ocr_qr_code$pretreat.coverage" NAME="pretreat Coverage Results" MODIFIED="1555855609726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ocr_qr_code$generator.coverage" NAME="generator Coverage Results" MODIFIED="1555847659971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ocr_qr_code$cut_word__1_.coverage" NAME="cut_word (1) Coverage Results" MODIFIED="1555852603848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ocr_qr_code$main.coverage" NAME="main Coverage Results" MODIFIED="1555855746241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tmp.image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/tmp/test.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/cut_word/test.py" />
-    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="2317" column="4" selection-start-line="2317" selection-start-column="4" selection-end-line="2317" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/matplotlib/pyplot.py" />
     <entry file="file://$PROJECT_DIR$/src/cut_word/宋.png" />
-    <entry file="file://$PROJECT_DIR$/src/pretreat/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my_class/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64125">
-          <caret line="2379" selection-start-line="2379" selection-end-line="2379" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pretreat/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/my_class/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/myclass/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/my_class/Character.py" />
+    <entry file="file://$PROJECT_DIR$/src/cut_word/cut_word.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/ImageFile.py" />
     <entry file="file://$PROJECT_DIR$/data/songti.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myclass/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my_class/Character.py">
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/pytesseract/pytesseract.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/numpy/core/_methods.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/ImageFont.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="-343">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cut_word/cut_word.py">
+    <entry file="file://$PROJECT_DIR$/draft.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="126">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1988" selection-start-line="1988" selection-end-line="1988" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/ocr_qr_code/lib/python3.6/site-packages/PIL/ImageFile.py">
+    <entry file="file://$PROJECT_DIR$/pretreat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="471" selection-start-line="471" selection-end-line="471" />
+        <state relative-caret-position="218">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cut_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
