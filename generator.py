@@ -43,7 +43,6 @@ def generate_iter(chars: str, font_name: str):
 
 
 if __name__ == "__main__":
-
     # 生成文档，敲回车生成下一页
     chars = read_chinese.read_chinese3500()
     # generate_doc(chars, config.FONT_NAME_Fangzheng)

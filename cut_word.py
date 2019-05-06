@@ -71,6 +71,5 @@ if __name__ == "__main__":
     # img = pretreat(img)
     img = pretreat.crop_image(img)
     img.show()
+    cut_word_with_size_and_border.count = 0
     img_list = cut_word_with_size_and_border(img, config.FONT_NAME_Sun)
-    print(pytesseract.image_to_string(img_list[0], lang="chi_sim", config="-psm 10"))
-    print(pytesseract.image_to_string(img, lang="chi_sim"))
