@@ -10,18 +10,18 @@ import read_chinese
 def generate_doc_with_code_and_bias(bits: list,
                                     text: str,
                                     font_names: list,
-                                    bias={}):
+                                    bias={}) -> list:
     """Generate document with given text, bits to be encoded, and font names.
-   
+
     When text is longer than bits, font_names[0] will be used.
     When text is shorter than bits, extra bits will be ignored.
-   
+
     Params:
         bits: List of integers, e.g. [0, 1, 0, 0]. Don't have to be 0 or 1, because we can have more than two kinds of fonts.
         text: e.g. "你好世界".
         font_names: Name of font, or path of font file.
-        bias: 
-   
+        bias:
+
     Returns:
         List of PIL.Image.
     """
@@ -102,7 +102,27 @@ def generate_iter(chars: str, font_name: str):
         cv2.waitKey()
 
 
+def generate_doc_with_random_code(n: int):
+    bits = np.random.randint(2, size=(n, ))
+    print(bits)
+    text = read_chinese.read_chinese3500()
+    docs = generate_doc_with_code_and_bias(bits,
+                                           text, ['data/fonts/MicroSun.ttf', 'data/fonts/HuaWenSun.ttf'],
+                                           bias={1: (0, -6)})
+    '''
+    docs = generate_doc_with_code_and_bias(bits,
+                                           text, ['data/fonts/SimSun.ttf', 'data/fonts/FangZhengKaiTi.ttf'],
+                                           bias={1: (0, 0)})
+    '''
+
+    for img in docs:
+        img = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
+        cv2.imshow("img", img)
+        cv2.waitKey()
+
+
 if __name__ == "__main__":
+    # generate_doc_with_random_code((config.DOC_DIM[0] - 2) * (config.DOC_DIM[1] - 2))
     sep_img = Image.open("data/seperate.jpeg")
     # 生成文档，敲回车生成下一页
     chars = read_chinese.read_chinese3500()
@@ -110,11 +130,11 @@ if __name__ == "__main__":
     NUM = len(chars)
     code = [0 for _ in range(NUM)]
     text = chars[:NUM]
-
+    '''
     # 微软仿宋
     doc = generate_doc_with_code_and_bias(code,
                                           text, ['data/fonts/MicroSun.ttf'],
-                                          bias={0: (0, 8)})
+                                          bias={0: (0, 0)})
     for img in doc:
         img = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
         cv2.imshow("img", img)
@@ -123,24 +143,12 @@ if __name__ == "__main__":
     sep_img = cv2.cvtColor(np.asarray(sep_img), cv2.COLOR_RGB2BGR)
     cv2.imshow("sep", sep_img)
     cv2.waitKey()
-
+    '''
     # 华文仿宋
     doc = generate_doc_with_code_and_bias(code,
                                           text, ['data/fonts/HuaWenSun.ttf'],
-                                          bias={0: (0, 0)})
+                                          bias={0: (0, -8)})
     for img in doc:
         img = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
         cv2.imshow("img", img)
         cv2.waitKey()
-    '''
-    chars = read_chinese.read_chinese3500()
-    # generate_doc(chars, config.FONT_NAME_Fangzheng)
-    NUM = len(chars)
-    code = [0, 0, 1, 1, 0, 0, 1, 1]
-    text = "黄志鹏会珍惜杨妍"
-    doc = generate_doc_with_code_and_bias(code,
-                                          text, ['data/fonts/MicroSun.ttf', 'data/fonts/HuaWenSun.ttf'],
-                                          bias={0: (0, 8)})
-    for img in doc:
-        img.show()
-    ''' 

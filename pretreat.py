@@ -2,18 +2,26 @@ import config
 import numpy as np
 from PIL import Image
 import cv2
+import sys
 
 
 def pretreat(img: Image.Image) -> Image.Image:
-    img = crop_image(img)
     img_data = np.array(img)
-    img_data = np.mean(img_data, -1)  # 将rgb转为灰度图
+    # img_data = np.mean(img_data, -1)  # 将rgb转为灰度图
     # 二值化
-    img_data[img_data > 150] = 255
+    img_data[img_data > 128] = 255
 
-    img_data[img_data <= 100] = 0
+    img_data[img_data <= 128] = 0
     img = Image.fromarray(img_data)
     return img
+
+
+def custom_blur_demo(image: Image.Image, n: int) -> Image.Image:
+    image = cv2.cvtColor(np.asarray(image), cv2.COLOR_RGB2BGR)
+    kernel = np.array([[0, -1, 0], [-1, n, -1], [0, -1, 0]], np.float32)  # 锐化
+    dst = cv2.filter2D(image, -1, kernel=kernel)
+    # cv2.imshow("custom_blur_demo", dst)
+    return Image.fromarray(dst)
 
 
 def crop_image(image: Image.Image) -> Image.Image:
@@ -84,6 +92,37 @@ def crop_image(image: Image.Image) -> Image.Image:
 
 
 if __name__ == "__main__":
-    img = Image.open("data/1.jpg")
-    img = crop_image(img)
-    img.show()
+    path = "result/" + sys.argv[1] + ".jpg"
+    img = Image.open(path)
+    img = custom_blur_demo(img, int(sys.argv[2]))
+    img = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
+    cv2.imshow("img", img)
+    cv2.waitKey(0)
+
+    '''
+    path = "result/tmp/test/"
+    files = os.listdir(path)
+    for f in files:
+        print(f)
+        img = Image.open(path + f)
+        img = crop_image(img)
+        img = custom_blur_demo(img)
+        img.save("result/tmp/" + f)
+    path = "result/tmp/test2/"
+    files = os.listdir(path)
+    for f in files:
+        print(f)
+        img = Image.open(path + f)
+        img = crop_image(img)
+        img = pretreat(img)
+        img.save("result/error_test/two/test2/" + f)
+
+    path = "result/tmp/test3/"
+    files = os.listdir(path)
+    for f in files:
+        print(f)
+        img = Image.open(path + f)
+        img = crop_image(img)
+        img = pretreat(img)
+        img.save("result/error_test/two/test3/" + f)
+    '''
