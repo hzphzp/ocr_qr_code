@@ -1,0 +1,7 @@
+digraph {
+    O [label="组织 O"] 
+    A [label="成员 A"]
+    B [label="成员 B"]
+    O -> A
+    O -> B
+}
